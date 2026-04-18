@@ -292,8 +292,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M44Y52N28;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Pret/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Prêt";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,8 +316,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3M44Y52N28;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Pret/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Prêt";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
