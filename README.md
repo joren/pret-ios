@@ -5,7 +5,7 @@ created by following the official
 [Hotwire Native iOS: Getting Started](https://native.hotwired.dev/ios/getting-started)
 guide.
 
-The app wraps `https://www.pret.co.uk` in a native iOS container using
+The app wraps `https://pret-app.com` in a native iOS container using
 `HotwireNative.Navigator`, giving you basic forward/back navigation and error
 handling for free.
 
