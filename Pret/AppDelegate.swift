@@ -1,9 +1,25 @@
+import HotwireNative
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        configureHotwire()
         return true
+    }
+
+    private func configureHotwire() {
+        Hotwire.loadPathConfiguration(from: [
+            .file(Bundle.main.url(forResource: "path-configuration", withExtension: "json")!),
+            .server(AppConfiguration.remotePathConfigurationURL)
+        ])
+
+        Hotwire.config.backButtonDisplayMode = .minimal
+        Hotwire.config.showDoneButtonOnModals = true
+
+        #if DEBUG
+        Hotwire.config.debugLoggingEnabled = true
+        #endif
     }
 
     // MARK: UISceneSession Lifecycle

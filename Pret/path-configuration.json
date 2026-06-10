@@ -1,0 +1,65 @@
+{
+  "settings": {},
+  "rules": [
+    {
+      "patterns": [
+        ".*"
+      ],
+      "properties": {
+        "context": "default",
+        "pull_to_refresh": true
+      }
+    },
+    {
+      "patterns": [
+        "/login$",
+        "/session/new$",
+        "/sessions/new$",
+        "/users/sign_in$",
+        "/passwords?/new$"
+      ],
+      "properties": {
+        "context": "default",
+        "presentation": "replace_root",
+        "pull_to_refresh": false
+      }
+    },
+    {
+      "patterns": [
+        "/new$",
+        "/edit$"
+      ],
+      "properties": {
+        "context": "modal",
+        "pull_to_refresh": false
+      }
+    },
+    {
+      "patterns": [
+        "/recede_historical_location"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "pop"
+      }
+    },
+    {
+      "patterns": [
+        "/resume_historical_location"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "none"
+      }
+    },
+    {
+      "patterns": [
+        "/refresh_historical_location"
+      ],
+      "properties": {
+        "context": "modal",
+        "presentation": "refresh"
+      }
+    }
+  ]
+}

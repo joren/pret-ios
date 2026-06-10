@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1000000000000000000001A /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0000000000000000000001A /* AppConfiguration.swift */; };
 		F2000000000000000000001A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2000000000000000000001A /* AppDelegate.swift */; };
 		F3000000000000000000001A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000000000000000000001A /* SceneDelegate.swift */; };
 		F6000000000000000000001A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6000000000000000000001A /* LaunchScreen.storyboard */; };
 		F7000000000000000000001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7000000000000000000001A /* Assets.xcassets */; };
 		F8000000000000000000001A /* HotwireNative in Frameworks */ = {isa = PBXBuildFile; productRef = 1200000000000000000000AA /* HotwireNative */; };
+		F9000000000000000000001A /* path-configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = E8000000000000000000001A /* path-configuration.json */; };
+		FA000000000000000000001A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E9000000000000000000001A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1000000000000000000001A /* Pret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pret.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0000000000000000000001A /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		E2000000000000000000001A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3000000000000000000001A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5000000000000000000001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6100000000000000000001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7000000000000000000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8000000000000000000001A /* path-configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "path-configuration.json"; sourceTree = "<group>"; };
+		E9000000000000000000001A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +53,13 @@
 		B2000000000000000000001A /* Pret */ = {
 			isa = PBXGroup;
 			children = (
+				E0000000000000000000001A /* AppConfiguration.swift */,
 				E2000000000000000000001A /* AppDelegate.swift */,
 				E3000000000000000000001A /* SceneDelegate.swift */,
+				E8000000000000000000001A /* path-configuration.json */,
 				E6000000000000000000001A /* LaunchScreen.storyboard */,
 				E7000000000000000000001A /* Assets.xcassets */,
+				E9000000000000000000001A /* PrivacyInfo.xcprivacy */,
 				E5000000000000000000001A /* Info.plist */,
 			);
 			path = Pret;
@@ -137,6 +146,8 @@
 			files = (
 				F6000000000000000000001A /* LaunchScreen.storyboard in Resources */,
 				F7000000000000000000001A /* Assets.xcassets in Resources */,
+				F9000000000000000000001A /* path-configuration.json in Resources */,
+				FA000000000000000000001A /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +160,7 @@
 			files = (
 				F3000000000000000000001A /* SceneDelegate.swift in Sources */,
 				F2000000000000000000001A /* AppDelegate.swift in Sources */,
+				F1000000000000000000001A /* AppConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
